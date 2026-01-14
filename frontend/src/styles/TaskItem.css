@@ -1,0 +1,47 @@
+.task_item {
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: #fff;
+}
+
+.task_item_title {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+}
+
+.task_item_description {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+}
+
+.task_item_completed,
+.task_item_priority,
+.task_item_created_at {
+  margin: 2px 0;
+  font-size: 12px;
+}
+
+button {
+  margin-top: 6px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.delete_button {
+  background: #eee;
+}
+
+.toggle_button {
+  margin-left: 6px;
+}
+
+.are_you_sure_delete {
+  font-size: 14px;
+}
+
+.yes_delete,
+.no_delete {
+  margin-right: 6px;
+}

@@ -1,0 +1,23 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.track-wrapper {
+  overflow: hidden;
+  width: calc(280px * 3);
+}
+
+.track {
+  display: flex;
+  will-change: transform;
+}
+
+.task_list {
+  flex: 0 0 280px;
+}
+
+.arrow {
+  cursor: pointer;
+}
